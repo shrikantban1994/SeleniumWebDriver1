@@ -17,5 +17,6 @@ public class SelectorMethods {
         driver.findElement(By.cssSelector("input#input-password")).sendKeys("Shrikant1@");
         driver.findElement(By.cssSelector("input[value='Login']")).click();
 
+
     }
 }
